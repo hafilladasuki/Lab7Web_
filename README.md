@@ -145,3 +145,46 @@ Semua halaman menggunakan konsep **MVC** dan memiliki layout yang sama.
 ## Kesimpulan
 
 Framework **CodeIgniter 4** membantu proses pengembangan aplikasi web menjadi lebih terstruktur dengan menggunakan konsep MVC yang memisahkan antara logika program, data, dan tampilan.
+
+
+
+## PRATIKUM 2 ## 
+# Aplikasi Artikel - CodeIgniter 4
+
+## Deskripsi
+
+Aplikasi ini merupakan sistem sederhana berbasis web yang digunakan untuk mengelola data artikel. Dibangun menggunakan framework CodeIgniter 4, aplikasi ini menerapkan konsep MVC (Model, View, Controller) sehingga struktur kode menjadi lebih terorganisir dan mudah dikembangkan.
+
+## Tujuan
+
+Tujuan pembuatan aplikasi ini adalah untuk memahami dasar pengembangan web menggunakan framework, khususnya dalam pengelolaan data (CRUD) serta implementasi koneksi database.
+
+## Fitur Utama
+
+* Menampilkan daftar artikel
+* Melihat detail artikel
+* Menambah data artikel
+* Mengubah data artikel
+* Menghapus data artikel
+* Halaman admin untuk pengelolaan data
+
+## Teknologi yang Digunakan
+
+* PHP
+* CodeIgniter 4
+* MySQL
+* HTML & CSS
+
+  <p>SCREENSHOOT HASIL</p>
+  <img width="1877" height="967" alt="Screenshot 2026-03-12 000044" src="https://github.com/user-attachments/assets/e3b91667-1af5-4a57-9bcf-f9b096c84f3a" />
+  <img width="722" height="491" alt="Screenshot 2026-04-01 211732" src="https://github.com/user-attachments/assets/ee2d72ce-4357-4f32-9305-8e5e4aecf6d7" />
+  <img width="1739" height="857" alt="Screenshot 2026-04-01 230242" src="https://github.com/user-attachments/assets/defec035-f2f1-4787-8a11-52336bc0ff81" />
+  <img width="1740" height="865" alt="Screenshot 2026-04-01 230704" src="https://github.com/user-attachments/assets/c9d459bc-7b2d-4159-80ff-a085a60f483f" />
+
+
+
+
+
+## Penutup
+
+Aplikasi ini masih bersifat sederhana dan dapat dikembangkan lebih lanjut dengan menambahkan fitur seperti autentikasi pengguna, upload gambar, dan tampilan yang lebih interaktif.
