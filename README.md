@@ -188,3 +188,80 @@ Tujuan pembuatan aplikasi ini adalah untuk memahami dasar pengembangan web mengg
 ## Penutup
 
 Aplikasi ini masih bersifat sederhana dan dapat dikembangkan lebih lanjut dengan menambahkan fitur seperti autentikasi pengguna, upload gambar, dan tampilan yang lebih interaktif.
+
+
+## PRATIKUM 3 ##
+
+# Aplikasi Artikel - CodeIgniter 4
+
+## Deskripsi
+
+Aplikasi ini merupakan sistem sederhana untuk mengelola data artikel berbasis web menggunakan CodeIgniter 4. Aplikasi ini menerapkan konsep MVC sehingga struktur program menjadi lebih rapi dan mudah dikembangkan.
+
+## Tujuan
+
+Praktikum ini bertujuan untuk memahami penggunaan View Layout dan View Cell dalam membangun tampilan yang terstruktur, konsisten, dan modular.
+
+## Fitur
+
+* Menampilkan daftar artikel
+* Detail artikel
+* Tambah, ubah, dan hapus artikel
+* Halaman admin
+* Sidebar artikel terkini
+
+## Konsep Utama
+
+* **View Layout** digunakan untuk menyatukan tampilan (header, navbar, footer) agar tidak berulang.
+* **View Cell** digunakan untuk membuat komponen seperti sidebar yang bisa dipakai di berbagai halaman.
+
+## Kesimpulan
+
+Penggunaan View Layout dan View Cell membantu membuat tampilan aplikasi lebih rapi, efisien, dan mudah dikembangkan.
+
+# JAWABAN SOAL #
+
+## Jawaban Tugas
+
+### 1. Manfaat View Layout
+
+View Layout digunakan untuk membuat tampilan aplikasi lebih rapi dan konsisten. Dengan layout, bagian seperti header, navbar, dan footer tidak perlu ditulis berulang, sehingga lebih efisien dan mudah dikelola.
+
+---
+
+### 2. Perbedaan View Cell dan View Biasa
+
+View biasa digunakan untuk menampilkan halaman utama yang datanya dikirim dari controller.
+
+Sedangkan View Cell digunakan untuk membuat komponen kecil yang dapat digunakan kembali, seperti sidebar, dan dapat mengambil data sendiri tanpa melalui controller utama.
+
+---
+
+### 3. Fungsi View Cell dalam Aplikasi
+
+View Cell berfungsi untuk menampilkan bagian tertentu dari halaman yang bersifat dinamis dan dapat digunakan di berbagai halaman. Contohnya adalah menampilkan daftar artikel terbaru pada sidebar.
+
+---
+
+### 4. Keuntungan Menggunakan Layout dan View Cell
+
+Keuntungan utamanya adalah membuat kode lebih rapi, mengurangi pengulangan kode, serta mempermudah pengembangan dan pemeliharaan aplikasi. Selain itu, tampilan menjadi lebih konsisten di setiap halaman.
+
+---
+
+### 5. Modifikasi View Cell
+
+View Cell dapat dimodifikasi dengan menambahkan kondisi pada query untuk menampilkan data tertentu sesuai kebutuhan.
+
+Contoh:
+
+```php id="dzrtdc"
+$artikel = $model
+    ->where('status', 1)
+    ->orderBy('id', 'DESC')
+    ->limit(5)
+    ->findAll();
+```
+
+Dengan modifikasi ini, data yang ditampilkan menjadi lebih spesifik.
+
