@@ -263,5 +263,46 @@ $artikel = $model
     ->findAll();
 ```
 
-Dengan modifikasi ini, data yang ditampilkan menjadi lebih spesifik.
+# Praktikum 4 - Login System (CodeIgniter 4)
+
+## Deskripsi
+
+Praktikum ini bertujuan untuk membangun sistem login sederhana menggunakan CodeIgniter 4. Sistem ini memungkinkan pengguna untuk melakukan autentikasi sebelum mengakses halaman admin.
+
+## Tujuan
+
+* Memahami konsep dasar autentikasi (login)
+* Memahami penggunaan session
+* Memahami penggunaan filter (Auth) untuk keamanan halaman
+
+## Fitur
+
+* Form login pengguna
+* Validasi email dan password
+* Session login
+* Proteksi halaman admin menggunakan Auth Filter
+* Logout
+
+## Alur Sistem
+
+1. User mengakses halaman login
+2. User memasukkan email dan password
+3. Sistem memverifikasi data ke database
+4. Jika benar, user masuk ke halaman admin
+5. Jika salah, muncul pesan error
+6. Halaman admin hanya bisa diakses jika sudah login
+
+   <img width="642" height="339" alt="Screenshot 2026-04-07 235944" src="https://github.com/user-attachments/assets/56a9d171-0060-4a43-ba5a-537ae188a526" />
+
+
+## Teknologi
+
+* PHP
+* CodeIgniter 4
+* MySQL
+
+## Kesimpulan
+
+Sistem login ini menunjukkan bagaimana proses autentikasi bekerja pada aplikasi web. Dengan menggunakan session dan filter, keamanan aplikasi dapat ditingkatkan karena hanya pengguna yang terdaftar yang dapat mengakses halaman tertentu.
+
 
